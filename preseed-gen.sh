@@ -42,7 +42,7 @@ d-i netcfg/get_netmask string ${TARGET_NETMASK}
 d-i netcfg/get_gateway string ${TARGET_GATEWAY}
 d-i netcfg/confirm_static boolean true 
 d-i netcfg/get_hostname string ${TARGET_HOSTNAME}
-d-i netcfg/get_domain string cdn.samlbits.net
+d-i netcfg/get_domain string sunet.se
 d-i netcfg/wireless_wep string
 
 d-i clock-setup/utc-auto boolean true
