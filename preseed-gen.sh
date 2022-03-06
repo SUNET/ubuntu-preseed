@@ -36,7 +36,7 @@ d-i netcfg/disable_autoconfig boolean true
  
 d-i netcfg/choose_interface select ${TARGET_IF}
 d-i netcfg/disable_dhcp boolean true
-d-i netcfg/get_nameservers string 8.8.8.8 
+d-i netcfg/get_nameservers string 89.32.32.32
 d-i netcfg/get_ipaddress string ${TARGET_IP}
 d-i netcfg/get_netmask string ${TARGET_NETMASK}
 d-i netcfg/get_gateway string ${TARGET_GATEWAY}
