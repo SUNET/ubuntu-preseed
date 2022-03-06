@@ -1,5 +1,5 @@
 
-# Something about preseed...
+# Something something preseed...
 
 ```bash
 # cat >preseed/name_of_target.env<EOF
