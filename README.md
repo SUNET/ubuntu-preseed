@@ -14,3 +14,5 @@ EOF
 ```
 
 Should produce output in iso directory. Config is highly opinionated - disks are bundled together as mirror. Full disk is used. Edit preseed-gen.sh to change.
+
+Add your pubkey to overlay/authorized_keys to be able to login afterwards...
