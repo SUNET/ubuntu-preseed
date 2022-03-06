@@ -97,7 +97,7 @@ d-i passwd/root-password password RuabAjIngyia
 d-i passwd/root-password-again password RuabAjIngyia
 d-i user-setup/allow-password-weak boolean true 
 d-i user-setup/encrypt-home boolean false 
-d-i preseed/late_command string in-target mkdir -p /root/.ssh ; cp /cdrom/neo.pub /target/root/.ssh/authorized_keys ; in-target chmod -R go-rwx /root/.ssh
+d-i preseed/late_command string in-target mkdir -p /root/.ssh ; cp /cdrom/authorized_keys /target/root/.ssh/authorized_keys ; in-target chmod -R go-rwx /root/.ssh
  
 d-i apt-setup/use_mirror boolean true 
  
